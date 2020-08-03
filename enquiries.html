@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P17234645</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="hamburgerwrapper">
+      <div class="hamburger"></div>
+      <div class="hamburger"></div>
+      <div class="hamburger"></div>
+    </div>
+    <nav id="mobilenav">
+      <a href="index.html">Home</a>
+      <a href="repairs.html">Repairs</a>
+      <a class="top" href="#">Enquiries</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <div class="logo"></div>
+    <nav id="nav">
+      <a href="index.html">Home</a>
+      <a href="repairs.html">Repairs</a>
+      <a href="#">Enquiries</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <h1 id="title">Submit any enquiries below</h1>
+    <div id="formbox">
+      <form
+        action="https://formspree.io/xgezlzaj"
+        method="POST"
+        >
+        <label>
+        Email Address:   </label>
+        <input id="emailinput" type="text" name="Reply to">
+        <label>
+        Repair Type:      </label>
+        <select id="repairs" name="Repairs">
+          <option value="screenrepair">Screen Repair</option>
+          <option value="batteryrepair">Battery Repair</option>
+          <option value="softwarerepair">Software Issue</option>
+          <option value="waterdamagerepair">Water Damage Repair</option>
+          <option value="componentupgrade">Component Upgrade</option>
+          <option value="datarecovery">Data Recovery</option>
+        </select>
+        <label>
+        Details:    </label>
+        <textarea id="message" name="Message"></textarea>
+        <button id="send" type="submit">Send</button>
+      </form>
+    </div>
+    <div id="logos">
+      <div id="logocrop"></div>
+      <h1 class="footertext">CheapFixUK</h1>
+      <p  class="footertext">149 Barclay Street<br/>
+        Leicester<br/>
+        LE3 0JE<br/>
+        +447718209852
+      </p>
+      <div id="logoflex">
+        <div id="facebook"></div>
+        <div id="instagram"></div>
+        <div id="youtube"></div>
+      </div>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
